@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Weather App</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="app">
+  <!--Time-->
+  <div class="time">
+   <div class="date">Sunday</div>
+   <span class="hour">12</span>:<span class="mins">00</span>:<span class='secs'>46</span>
+   <div class="full-date"></div>
+   </div>
+  <!--location-->
+  <div class="location">
+   <h1 class="location-timezone">Tra Vinh/ Vietnam</h1>
+   <canvas id="icon1" class="icon" width="128" height="128"></canvas>
+  </div>
+  <div class="degree">
+   <div class="degree-sec">
+   <span class="tem">34</span>&#176;<span class="f">F</span>
+  </div>
+   <p class="tem-description">It's freaking hot</p>
+  </div>
+  <script src="app.js"></script>
+  <script src="skycons.js"></script>
+ </div>
+</body>
+</html>
